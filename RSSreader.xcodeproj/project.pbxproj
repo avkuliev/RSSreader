@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8977300319DDA3B2003E5960 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8977300219DDA3B2003E5960 /* README.md */; };
 		89E62CDD19DD6F090071E031 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E62CDC19DD6F090071E031 /* Foundation.framework */; };
 		89E62CDF19DD6F090071E031 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E62CDE19DD6F090071E031 /* CoreGraphics.framework */; };
 		89E62CE119DD6F090071E031 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E62CE019DD6F090071E031 /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8977300219DDA3B2003E5960 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		89E62CD919DD6F090071E031 /* RSSreader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSreader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E62CDC19DD6F090071E031 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		89E62CDE19DD6F090071E031 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,6 +87,7 @@
 		89E62CD019DD6F090071E031 = {
 			isa = PBXGroup;
 			children = (
+				8977300219DDA3B2003E5960 /* README.md */,
 				89E62CE219DD6F090071E031 /* RSSreader */,
 				89E62D0419DD6F0A0071E031 /* RSSreaderTests */,
 				89E62CDB19DD6F090071E031 /* Frameworks */,
@@ -235,6 +238,7 @@
 			files = (
 				89E62CF819DD6F090071E031 /* Images.xcassets in Resources */,
 				89E62CE719DD6F090071E031 /* InfoPlist.strings in Resources */,
+				8977300319DDA3B2003E5960 /* README.md in Resources */,
 				89E62CF019DD6F090071E031 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +466,7 @@
 				89E62D1019DD6F0A0071E031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89E62D1119DD6F0A0071E031 /* Build configuration list for PBXNativeTarget "RSSreaderTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +475,7 @@
 				89E62D1319DD6F0A0071E031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
